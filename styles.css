@@ -52,7 +52,8 @@ table {
     margin: 20px auto;
     background-color: cornflowerblue;
     border-radius: 20px;
-    height: 100px;
+    height: 50px;
+    position: relative;
 }
 
 h1 {
@@ -61,10 +62,12 @@ h1 {
     margin: 20px;
     font-size: 40px;
     font-weight: bold;
+    padding: 7px;
+    font-family: sans-serif;
 }
 
 .navContainer {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     background-color: coral;
     border-radius: 10px;
@@ -74,30 +77,74 @@ h1 {
     text-align: center;
     font-size: 25px;
     font-style: oblique;
+    padding: 15px
 }
 
 #navInstructions {
     text-align: center;
+    font-size: 20px;
+    padding: 10px
 }
 
 .jobNav {
-    padding: 10px 190px;
+    padding: 10px 350px;
+    font-size: 18px
 }
 
 .bodyContainer {
-
+    padding: 5px;
+    background-color: darkslategray;
 }
 
 .jobHeader {
     color: aqua;
     text-align: center;
-    margin: 20px;
+    margin: 20px 20px 20px;
+    font-size: x-large;
+    font-family: monospace;
 }
 
-/* ul {
-    list-style-type: circle;
-} */
 
 .jobParagraph {
+    padding: 20px;
+    color: floralwhite
+}
 
+.image1 {
+    max-width:100%; 
+    height:auto; 
+    align-items: center;
+    padding: 10px 34%
+}
+
+.image2 {
+    max-width:100%; 
+    height:auto; 
+    align-items: center;
+    padding: 10px 43%
+}
+
+.image3 {
+    max-width:100%; 
+    height:auto; 
+    align-items: center;
+    padding: 10px 38%
+}
+
+.image4 {
+    max-width:100%; 
+    height:auto; 
+    align-items: center;
+    padding: 10px 40%
+}
+
+.image5 {
+    max-width:100%; 
+    height:auto; 
+    align-items: center;
+    padding: 10px 38%
+}
+
+figcaption {
+    text-align: center;
 }
